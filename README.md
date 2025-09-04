@@ -48,11 +48,11 @@
 
 | Splash Screen | Home Screen | All Books |
 |---------------|-------------|-----------|
-| ![Splash](https://drive.google.com/file/d/1REqb0PHEVoISgP_ncS0rKoMzME7XcQ-N/view?usp=sharing) | ![Home](blob:https://www-towrco-in.filesusr.com/07675429-5ee6-4274-97fb-4f282c9ac7f5) | ![AllBooks](blob:https://www-towrco-in.filesusr.com/17fb836f-17db-41ab-8626-49cffd05ee84) |
+| ![Splash](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/a.png) | ![Home](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/b.png) | ![AllBooks](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/c.png) |
 
 | Navigation Drawer | Books by Category | PDF Reader |
 |-------------------|-------------------|-------------|
-| ![Drawer](blob:https://www-towrco-in.filesusr.com/6668fe2b-ae74-4178-bb05-fd873592da72) | ![BooksByCategory](blob:https://www-towrco-in.filesusr.com/efc1706e-196a-4d36-b716-35ef86511e8f) | ![PDF](blob:https://www-towrco-in.filesusr.com/0d438418-52cf-4a89-ad61-c4237229adce) |
+| ![Drawer](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/d.png) | ![BooksByCategory](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/e.png) | ![PDF](https://raw.githubusercontent.com/developeraj732/Gyantra/refs/heads/main/app/src/main/res/drawable/f.png) |
 
 ---
 
