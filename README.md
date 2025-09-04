@@ -48,11 +48,11 @@
 
 | Splash Screen | Home Screen | All Books |
 |---------------|-------------|-----------|
-| ![Splash](https://adverse-azure-twphzwpcpt.edgeone.app/Screenshot%202025-09-04%20at%202.05.22%E2%80%AFPM.png) | ![Home](https://managerial-bronze-yldezq8bng.edgeone.app/Screenshot%202025-09-04%20at%202.05.57%E2%80%AFPM.png) | ![AllBooks](https://melted-chocolate-84aeeuvvqo.edgeone.app/Screenshot%202025-09-04%20at%202.06.19%E2%80%AFPM.png) |
+| ![Splash](blob:https://www-towrco-in.filesusr.com/1c4f417b-c2de-480a-a796-ef308af9856c) | ![Home](blob:https://www-towrco-in.filesusr.com/07675429-5ee6-4274-97fb-4f282c9ac7f5) | ![AllBooks](blob:https://www-towrco-in.filesusr.com/17fb836f-17db-41ab-8626-49cffd05ee84) |
 
 | Navigation Drawer | Books by Category | PDF Reader |
 |-------------------|-------------------|-------------|
-| ![Drawer](https://cognitive-apricot-kjx6bq3gek.edgeone.app/Screenshot%202025-09-04%20at%202.06.51%E2%80%AFPM.png) | ![BooksByCategory](https://scary-violet-yze57vt4jm.edgeone.app/Screenshot%202025-09-04%20at%202.07.19%E2%80%AFPM.png) | ![PDF](https://hollow-lime-9erymnk0uj.edgeone.app/Screenshot%202025-09-04%20at%202.08.03%E2%80%AFPM.png) |
+| ![Drawer](blob:https://www-towrco-in.filesusr.com/6668fe2b-ae74-4178-bb05-fd873592da72) | ![BooksByCategory](blob:https://www-towrco-in.filesusr.com/efc1706e-196a-4d36-b716-35ef86511e8f) | ![PDF](blob:https://www-towrco-in.filesusr.com/0d438418-52cf-4a89-ad61-c4237229adce) |
 
 ---
 
