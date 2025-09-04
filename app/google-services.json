@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869970373967",
+    "project_id": "gyantra732",
+    "storage_bucket": "gyantra732.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869970373967:android:6c7ecaf3ae4c6a97c3693a",
+        "android_client_info": {
+          "package_name": "com.example.gyantra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9jwBQ8g-khwFlDiVSYvSVLzGhXW89Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
