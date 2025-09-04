@@ -48,7 +48,7 @@
 
 | Splash Screen | Home Screen | All Books |
 |---------------|-------------|-----------|
-| ![Splash](blob:https://www-towrco-in.filesusr.com/1c4f417b-c2de-480a-a796-ef308af9856c) | ![Home](blob:https://www-towrco-in.filesusr.com/07675429-5ee6-4274-97fb-4f282c9ac7f5) | ![AllBooks](blob:https://www-towrco-in.filesusr.com/17fb836f-17db-41ab-8626-49cffd05ee84) |
+| ![Splash](https://drive.google.com/file/d/1REqb0PHEVoISgP_ncS0rKoMzME7XcQ-N/view?usp=sharing) | ![Home](blob:https://www-towrco-in.filesusr.com/07675429-5ee6-4274-97fb-4f282c9ac7f5) | ![AllBooks](blob:https://www-towrco-in.filesusr.com/17fb836f-17db-41ab-8626-49cffd05ee84) |
 
 | Navigation Drawer | Books by Category | PDF Reader |
 |-------------------|-------------------|-------------|
