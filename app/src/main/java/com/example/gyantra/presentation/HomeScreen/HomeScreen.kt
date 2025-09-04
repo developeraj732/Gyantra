@@ -362,7 +362,7 @@ fun HomeScreen(navController: NavController) {
                             )
                         },
                         onClick = {
-                            urlHandler.openUri("https://github.com/developeraj732?tab=repositories")
+                            urlHandler.openUri("https://github.com/developeraj732/Gyantra")
                         },
                         colors = NavigationDrawerItemDefaults.colors(
                             unselectedContainerColor = Color.Transparent,
