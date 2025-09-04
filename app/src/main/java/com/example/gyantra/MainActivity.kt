@@ -44,7 +44,6 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -104,124 +103,121 @@ fun SplashScreen() {
 
     // Responsive dimensions based on screen size
     val containerPadding = when {
-        screenWidth <= 360.dp -> 16.dp  // Very small screens - reduced padding
-        screenWidth <= 480.dp -> 24.dp  // Small screens
-        screenWidth <= 600.dp -> 32.dp  // Medium screens
+        screenWidth <= 360.dp -> 24.dp  // Very small screens
+        screenWidth <= 480.dp -> 32.dp  // Small screens
+        screenWidth <= 600.dp -> 36.dp  // Medium screens
         else -> 40.dp                   // Large screens
     }
 
     val cardCornerRadius = when {
-        screenWidth <= 360.dp -> 16.dp
-        screenWidth <= 480.dp -> 20.dp
-        screenWidth <= 600.dp -> 24.dp
-        else -> 28.dp
+        screenWidth <= 360.dp -> 20.dp
+        screenWidth <= 480.dp -> 24.dp
+        screenWidth <= 600.dp -> 28.dp
+        else -> 32.dp
     }
 
     val cardPadding = when {
-        screenWidth <= 360.dp -> 20.dp  // Reduced padding for small screens
-        screenWidth <= 480.dp -> 32.dp
-        screenWidth <= 600.dp -> 40.dp
+        screenWidth <= 360.dp -> 32.dp
+        screenWidth <= 480.dp -> 40.dp
+        screenWidth <= 600.dp -> 44.dp
         else -> 48.dp
     }
 
     val logoSize = when {
-        screenWidth <= 360.dp -> 80.dp  // Smaller logo for very small screens
-        screenWidth <= 480.dp -> 100.dp
-        screenWidth <= 600.dp -> 120.dp
+        screenWidth <= 360.dp -> 100.dp
+        screenWidth <= 480.dp -> 120.dp
+        screenWidth <= 600.dp -> 130.dp
         else -> 140.dp
     }
 
     val logoImageSize = when {
-        screenWidth <= 360.dp -> 160.dp  // Proportionally smaller
-        screenWidth <= 480.dp -> 200.dp
-        screenWidth <= 600.dp -> 240.dp
+        screenWidth <= 360.dp -> 200.dp
+        screenWidth <= 480.dp -> 240.dp
+        screenWidth <= 600.dp -> 260.dp
         else -> 280.dp
     }
 
     val logoCornerRadius = when {
-        screenWidth <= 360.dp -> 12.dp
-        screenWidth <= 480.dp -> 16.dp
-        screenWidth <= 600.dp -> 20.dp
+        screenWidth <= 360.dp -> 16.dp
+        screenWidth <= 480.dp -> 20.dp
+        screenWidth <= 600.dp -> 22.dp
         else -> 24.dp
     }
 
     val spacerHeight = when {
-        screenWidth <= 360.dp -> 16.dp  // Reduced spacing
-        screenWidth <= 480.dp -> 20.dp
-        screenWidth <= 600.dp -> 24.dp
-        else -> 28.dp
+        screenWidth <= 360.dp -> 24.dp
+        screenWidth <= 480.dp -> 28.dp
+        screenWidth <= 600.dp -> 30.dp
+        else -> 32.dp
     }
 
-    // More aggressive text size reduction for small screens
     val titleFontSize = when {
-        screenWidth <= 360.dp -> 16.sp  // Much smaller for very small screens
-        screenWidth <= 400.dp -> 17.sp  // Added breakpoint for slightly larger small screens
-        screenWidth <= 480.dp -> 18.sp
-        screenWidth <= 600.dp -> 20.sp
+        screenWidth <= 360.dp -> 18.sp
+        screenWidth <= 480.dp -> 20.sp
+        screenWidth <= 600.dp -> 21.sp
         else -> 22.sp
     }
 
     val subtitleFontSize = when {
-        screenWidth <= 360.dp -> 11.sp  // Smaller subtitle
-        screenWidth <= 400.dp -> 11.5.sp
-        screenWidth <= 480.dp -> 12.sp
-        screenWidth <= 600.dp -> 13.sp
+        screenWidth <= 360.dp -> 12.sp
+        screenWidth <= 480.dp -> 13.sp
+        screenWidth <= 600.dp -> 13.5.sp
         else -> 14.sp
     }
 
     val textPadding = when {
-        screenWidth <= 360.dp -> 8.dp   // Less horizontal padding
-        screenWidth <= 480.dp -> 12.dp
-        screenWidth <= 600.dp -> 14.dp
+        screenWidth <= 360.dp -> 12.dp
+        screenWidth <= 480.dp -> 14.dp
+        screenWidth <= 600.dp -> 15.dp
         else -> 16.dp
     }
 
     val subtitlePadding = when {
-        screenWidth <= 360.dp -> 12.dp  // Less padding
-        screenWidth <= 480.dp -> 16.dp
-        screenWidth <= 600.dp -> 18.dp
+        screenWidth <= 360.dp -> 16.dp
+        screenWidth <= 480.dp -> 18.dp
+        screenWidth <= 600.dp -> 19.dp
         else -> 20.dp
     }
 
     // Responsive decorative elements
     val topDecorationSize = when {
-        screenWidth <= 360.dp -> 32.dp  // Smaller decorations
-        screenWidth <= 480.dp -> 40.dp
-        screenWidth <= 600.dp -> 50.dp
+        screenWidth <= 360.dp -> 40.dp
+        screenWidth <= 480.dp -> 50.dp
+        screenWidth <= 600.dp -> 55.dp
         else -> 60.dp
     }
 
     val bottomDecorationSize = when {
-        screenWidth <= 360.dp -> 24.dp
-        screenWidth <= 480.dp -> 28.dp
-        screenWidth <= 600.dp -> 32.dp
+        screenWidth <= 360.dp -> 28.dp
+        screenWidth <= 480.dp -> 34.dp
+        screenWidth <= 600.dp -> 37.dp
         else -> 40.dp
     }
 
     val topDecorationMargin = when {
-        screenWidth <= 360.dp -> 16.dp
-        screenWidth <= 480.dp -> 24.dp
-        screenWidth <= 600.dp -> 32.dp
+        screenWidth <= 360.dp -> 24.dp
+        screenWidth <= 480.dp -> 32.dp
+        screenWidth <= 600.dp -> 36.dp
         else -> 40.dp
     }
 
     val bottomDecorationMargin = when {
-        screenWidth <= 360.dp -> 24.dp
-        screenWidth <= 480.dp -> 32.dp
-        screenWidth <= 600.dp -> 40.dp
+        screenWidth <= 360.dp -> 40.dp
+        screenWidth <= 480.dp -> 50.dp
+        screenWidth <= 600.dp -> 55.dp
         else -> 60.dp
     }
 
     // Responsive positioning based on screen height
     val topDecorationTopMargin = when {
-        screenHeight <= 600.dp -> 40.dp  // Reduced for small heights
-        screenHeight <= 800.dp -> 60.dp
+        screenHeight <= 600.dp -> 60.dp
+        screenHeight <= 800.dp -> 70.dp
         else -> 80.dp
     }
 
     val bottomDecorationBottomMargin = when {
-        screenHeight <= 600.dp -> 60.dp
-        screenHeight <= 800.dp -> 80.dp
+        screenHeight <= 600.dp -> 80.dp
+        screenHeight <= 800.dp -> 90.dp
         else -> 100.dp
     }
 
@@ -329,28 +325,27 @@ fun SplashScreen() {
 
                 Spacer(modifier = Modifier.height(spacerHeight))
 
-                // Welcome text with beautiful typography - more compact for small screens
+                // Welcome text with beautiful typography
                 Text(
-                    text = if (screenWidth <= 360.dp) "Gyantra ❤️" else "Welcome to Gyantra ❤️",
+                    text = "Welcome to Gyantra ❤️",
                     style = MaterialTheme.typography.headlineSmall.copy(
                         fontSize = titleFontSize,
                         fontWeight = FontWeight.SemiBold,
                         textAlign = TextAlign.Center,
                         color = MaterialTheme.colorScheme.onSurface,
-                        letterSpacing = if (screenWidth <= 360.dp) 0.2.sp else 0.5.sp
+                        letterSpacing = 0.5.sp
                     ),
                     modifier = Modifier
                         .alpha(textAlpha)
                         .padding(horizontal = textPadding),
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis
+                    maxLines = if (screenWidth <= 360.dp) 2 else 1
                 )
 
-                Spacer(modifier = Modifier.height(if (screenWidth <= 360.dp) 4.dp else 8.dp))
+                Spacer(modifier = Modifier.height(8.dp))
 
-                // Subtitle for better hierarchy - shorter for small screens
+                // Subtitle for better hierarchy
                 Text(
-                    text = if (screenWidth <= 360.dp) "Unlock Wisdom" else "Discover Knowledge, Unlock Wisdom",
+                    text = "Discover Knowledge, Unlock Wisdom",
                     style = MaterialTheme.typography.bodyMedium.copy(
                         fontSize = subtitleFontSize,
                         fontWeight = FontWeight.Normal,
@@ -361,14 +356,13 @@ fun SplashScreen() {
                     modifier = Modifier
                         .alpha(textAlpha)
                         .padding(horizontal = subtitlePadding),
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis
+                    maxLines = if (screenWidth <= 360.dp) 2 else 1
                 )
             }
         }
 
         // Subtle decorative elements - only show on larger screens to avoid clutter
-        if (startAnimation && screenWidth > 400.dp) {  // Increased threshold
+        if (startAnimation && screenWidth > 360.dp) {
             // Top decoration
             Box(
                 modifier = Modifier
